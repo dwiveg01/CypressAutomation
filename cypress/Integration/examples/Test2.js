@@ -40,7 +40,7 @@ it('Test Case 2 : Two way data binding test',()=>{
   
 })
 
-it('Test Case 3: Add the product to Cart as per name',()=>{
+it('Test Case 3: Add the products to cart',()=>{
 
   const homePage=new HomePage
   const productPage=new ProductPage 
