@@ -50,7 +50,21 @@ it('Test Case 3: Add the product to Cart as per name',()=>{
   
   productPage.getCheckoutButton().click()
   productPage.getCheckoutFinalButton().click()
+  cy.log("Test case passed.")
   
+})
+
+it('Test Case 5: Add the product to Cart as per name duplicate',()=>{
+
+  const homePage=new HomePage
+  const productPage=new ProductPage 
+  
+  homePage.getShopTab().click()
+  cy.selectProduct(loginData.productName)
+  
+  productPage.getCheckoutButton().click()
+  productPage.getCheckoutFinalButton().click()
+  cy.log("Test case passed.")
   
 })
 
