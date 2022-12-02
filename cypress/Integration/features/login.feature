@@ -21,6 +21,7 @@ And user selects the product "<product_name>" in product page
 Then user clicks on checkout button
 
 
+
     Examples:
  
     |   name    |   gender  |   password    |  product_name |

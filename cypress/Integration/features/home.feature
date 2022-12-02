@@ -36,3 +36,5 @@ Then user clicks on checkout button
  
         |   name    |   gender  |   password    |  product_name |
         |  Gaurav   |  Female   |  admin1223    |  Nokia Edge   |   
+
+        
