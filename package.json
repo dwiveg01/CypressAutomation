@@ -4,12 +4,23 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node_modules\\.bin\\cypress run",
+    "headTest": "npm run test -- --headed",
+    "chromeTest": "npm run headTest -- --browser chrome",
+    "chromeTestHeadless": "npm run test -- --browser chrome",
+    "recordDashBoardTest": "npm run test --record --key da6d0e0f-fd25-487d-a8cf-7632e758905b"
   },
-  "author": "",
+
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": false,
+    "stepDefinitions":"cypress\\support\\step_definitions"
+  },
+
+  "author": "Gaurav",
   "license": "ISC",
   "devDependencies": {
     "cypress": "^11.2.0",
+    "cypress-cucumber-preprocessor": "^4.3.1",
     "cypress-xpath": "^2.0.1"
   }
 }

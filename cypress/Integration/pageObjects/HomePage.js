@@ -2,6 +2,10 @@ class HomePage{
 
     
 
+    visitLogin(){
+        return cy.visit('/')
+    }
+
     getName(){
         return cy.get('input[name="name"][class="form-control ng-untouched ng-pristine ng-invalid"]')
     }
