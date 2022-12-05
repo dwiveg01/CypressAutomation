@@ -24,5 +24,7 @@ And ('user clicks on shop link',()=>{
     productPage.getCheckoutFinalButton().click()
     cy.log("Test case passed.")
 
+    
+
 
  })

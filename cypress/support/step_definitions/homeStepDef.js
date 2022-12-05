@@ -17,5 +17,6 @@ When('user fills the form {string},{string},{string}',function(userName,userGend
     homePage.getName().type(userName)
     homePage.getGender().select(userGender)
     homePage.getPassword().type(userPassword)
+    
 })
 
