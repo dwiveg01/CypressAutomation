@@ -30,7 +30,7 @@ module.exports = defineConfig({
     },
    
     specPattern: 'cypress/Integration/features/*.feature',
-    baseUrl:'https://rahulshettyacademy.com/angularpractisee/'
+    baseUrl:'https://rahulshettyacademy.com/angularpractice/'
    
   },
 });

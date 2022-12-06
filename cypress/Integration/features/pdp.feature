@@ -12,4 +12,4 @@ Given user lands on website
  Examples:
  
  |   name    |   gender  |   password    |  product_name |
- |  Gaurav   |  Female   |  admin1223    |  Nokia Edge   |                         
+ |  Gaurav   |  Female   |  admin1223    |  Nokia Edge  |                         
